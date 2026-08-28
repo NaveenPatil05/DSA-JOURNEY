@@ -1,0 +1,29 @@
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+class Solution:
+    def reorderList(self, head: Optional[ListNode]) -> None:
+        slow=head
+        fast=head
+        while fast.next and fast.next.next:
+            slow=slow.next
+            fast=fast.next.next
+        current=slow.next
+        slow.next=None
+        prev=None
+        while current:
+            nextt=current.next
+            current.next=prev
+            prev=current
+            current=nextt
+        temp1=head
+        temp2=prev
+        while temp1 and temp2:
+            next2=temp2.next
+            next1=temp1.next
+            temp1.next=temp2
+            temp2.next=next1
+            temp1=next1
+            temp2=next2
+        return head
