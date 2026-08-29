@@ -1,0 +1,29 @@
+class Node:
+    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
+        self.val = int(x)
+        self.next = next
+        self.random = random
+
+class Solution:
+    def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
+        temp=head
+        while temp!=None:
+            newnode=Node(temp.val)
+            newnode.next=temp.next
+            temp.next=newnode
+            temp=temp.next.next
+        temp=head
+        while temp!=None:
+            if temp.random!=None:
+                temp.next.random=temp.random.next
+            temp=temp.next.next
+        temp=head
+        copy_list=head.next
+        while temp!=None and newnode!=None:
+            newnode=temp.next
+            temp.next=newnode.next
+            temp=temp.next
+            if temp!=None:
+                newnode.next=temp.next
+            newnode=newnode.next
+        return copy_list 
