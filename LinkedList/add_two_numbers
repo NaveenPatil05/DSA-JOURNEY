@@ -1,0 +1,28 @@
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+class Solution:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        temp1=l1
+        temp2=l2
+        carry=0
+        dummynode=curr=ListNode(-10)
+        while temp1!=None or temp2!=None:
+            summ=carry
+            if temp1!=None:
+                summ=summ+temp1.val
+            if temp2!=None:
+                summ=summ+temp2.val
+            newnode=ListNode(summ % 10)
+            curr.next=newnode
+            curr=curr.next
+            carry=summ//10
+            if temp1:
+                temp1=temp1.next
+            if temp2:
+                temp2=temp2.next
+        if carry!=0:
+            newnode=ListNode(carry)
+            curr.next=newnode
+        return dummynode.next
