@@ -7,6 +7,8 @@ My daily DSA problem-solving journey
 |26-08-2026|Remove Nth Node From End of List | Linked List, Two Pointers (Fast & Slow) | Medium|
 |28-08-2026|Reorder List | Linked List, Find Middle + Reverse + Merge | Medium |
 |29-08-2026 | Copy List with Random Pointer | Linked List,  Interweaving Nodes | Medium |
+|30-08-2026 | Add Two Numbers | Linked List, Dummy Node Approach/Carry Handling | Medium |
+
 
 
 
