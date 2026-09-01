@@ -9,6 +9,8 @@ My daily DSA problem-solving journey
 |29-08-2026 | Copy List with Random Pointer | Linked List,  Interweaving Nodes | Medium |
 |30-08-2026 | Add Two Numbers | Linked List, Dummy Node Approach/Carry Handling | Medium |
 |30-08-2026|merge two sorted list|Linked List,two pointer aproach|Easy|
+|01-09-2026|maximum depth of binary tree | Binary Tree ,Recursion | Easy|
+
 
 
 
