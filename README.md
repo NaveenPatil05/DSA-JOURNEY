@@ -11,6 +11,7 @@ My daily DSA problem-solving journey
 |30-08-2026|merge two sorted list|Linked List,two pointer aproach|Easy|
 |01-09-2026|maximum depth of binary tree | Binary Tree ,Recursion | Easy|
 |02-09-2026|same tree| Binary Tree ,preorder traversal | Easy|
+|04-09-2026|invert tree| Binary Tree ,Recursion | Easy|
 
 
 
