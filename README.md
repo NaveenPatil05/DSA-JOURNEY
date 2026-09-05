@@ -12,6 +12,7 @@ My daily DSA problem-solving journey
 |01-09-2026|maximum depth of binary tree | Binary Tree ,Recursion | Easy|
 |02-09-2026|same tree| Binary Tree ,preorder traversal | Easy|
 |04-09-2026|invert tree| Binary Tree ,Recursion | Easy|
+|05-09-2026|maximum sum path in binary tree| Binary Tree ,DFS|Hard|
 
 
 
