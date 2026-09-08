@@ -15,6 +15,7 @@ My daily DSA problem-solving journey
 |05-09-2026|maximum sum path in binary tree| Binary Tree ,DFS|Hard|
 |06-09-2026|level order traversal| Binary Tree ,BFS with queue|Medium|
 |07-09-2026|serialize and deserialize binary tree| Binary Tree ,preorder|Hard|
+|08-09-2026|subtree of another tree| Binary Tree ,serialize with preorder|Easy|
 
 
 
