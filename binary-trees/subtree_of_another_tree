@@ -1,0 +1,9 @@
+class Solution:
+    def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
+        s1=self.serialize(root)
+        s2=self.serialize(subRoot)
+        return s2 in s1
+    def serialize(self,node):
+        if not node:
+            return "#"
+        return str(node.val)+","+self.serialize(node.left)+","+self.serialize(node.right)
