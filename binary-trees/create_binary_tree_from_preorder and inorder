@@ -1,0 +1,12 @@
+class Solution:
+    def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
+        hashmap={val:i for i ,val in enumerate(inorder)}
+        return self.splittree(preorder,0,0,len(inorder)-1,hashmap)
+    def splittree(self,preorder,root_index,left,right,hashmap):
+        root=TreeNode(preorder[root_index])
+        mid=hashmap[root.val]
+        if mid>left:
+            root.left=self.splittree(preorder,root_index+1,left,mid-1,hashmap)
+        if mid<right:
+            root.right=self.splittree(preorder,root_index+mid-left+1,mid+1,right,hashmap)
+        return root
