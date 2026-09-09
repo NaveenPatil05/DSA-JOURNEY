@@ -16,7 +16,7 @@ My daily DSA problem-solving journey
 |06-09-2026|level order traversal| Binary Tree ,BFS with queue|Medium|
 |07-09-2026|serialize and deserialize binary tree| Binary Tree ,preorder|Hard|
 |08-09-2026|subtree of another tree| Binary Tree ,serialize with preorder|Easy|
-
+|09-09-2026|Construct Binary Tree from Preorder and Inorder Traversal| Binary Tree ,Hashmap+Recursion|Medium|
 
 
 
