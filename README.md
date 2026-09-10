@@ -17,6 +17,8 @@ My daily DSA problem-solving journey
 |07-09-2026|serialize and deserialize binary tree| Binary Tree ,preorder|Hard|
 |08-09-2026|subtree of another tree| Binary Tree ,serialize with preorder|Easy|
 |09-09-2026|Construct Binary Tree from Preorder and Inorder Traversal| Binary Tree ,Hashmap+Recursion|Medium|
+| 10-09-2026 | Validate Binary Search Tree | Binary Tree, DFS with Range Propagation | Medium |
+
 
 
 
