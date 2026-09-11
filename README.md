@@ -18,6 +18,8 @@ My daily DSA problem-solving journey
 |08-09-2026|subtree of another tree| Binary Tree ,serialize with preorder|Easy|
 |09-09-2026|Construct Binary Tree from Preorder and Inorder Traversal| Binary Tree ,Hashmap+Recursion|Medium|
 | 10-09-2026 | Validate Binary Search Tree | Binary Tree, DFS with Range Propagation | Medium |
+| 11-09-2026 |kth smallest element in binary search tree| Binary Tree,inorder with counting | Medium |
+
 
 
 
