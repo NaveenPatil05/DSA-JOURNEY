@@ -1,0 +1,17 @@
+class Solution:
+    def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
+        count=0
+        ans=0
+        def inorder(node):
+            nonlocal count
+            nonlocal ans
+            if not node:
+                return 
+            inorder(node.left)
+            count+=1
+            if count==k:
+                ans=node.val
+                return 
+            inorder(node.right)
+        inorder(root)
+        return ans
