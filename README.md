@@ -19,6 +19,7 @@ My daily DSA problem-solving journey
 |09-09-2026|Construct Binary Tree from Preorder and Inorder Traversal| Binary Tree ,Hashmap+Recursion|Medium|
 | 10-09-2026 | Validate Binary Search Tree | Binary Tree, DFS with Range Propagation | Medium |
 | 11-09-2026 |kth smallest element in binary search tree| Binary Tree,inorder with counting | Medium |
+|12-09-2026|lowest common ancestor in bst| Binary Tree,iterative |Medium|
 
 
 
